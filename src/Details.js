@@ -53,7 +53,7 @@ export const personalDetails = {
   name: "Vidisha Chandra",
   tagline: "Transforming data into innovation, one code at a time.",
   img: profile,
-  about: `A dedicated software engineer with a passion for solving complex problems and delivering impactful solutions. With hands-on experience in full-stack development and distributed systems, I am pursuing a Master of Science in Information Technology and Management at the University of Texas at Austin. I thrive in dynamic environments, leveraging my technical expertise and collaborative spirit to drive innovation and efficiency.`,
+  about: `I am a passionate Data Engineer and Software Developer who loves solving challenging problems through code and data-driven solutions. With hands-on experience in building scalable systems and full-stack applications, I excel at creating impactful tools that make data accessible and actionable. Currently pursuing my Master's in Information Technology & Management at The University of Texas at Austin, I am driven to turn complex ideas into solutions.`,
 };
 
 // Enter your Social Media URLs here
