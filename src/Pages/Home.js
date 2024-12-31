@@ -1,3 +1,5 @@
+
+
 // import React, { useRef, useEffect } from "react";
 // import gsap from "gsap";
 // import { personalDetails } from "../Details";
@@ -63,17 +65,19 @@
 //           ref={h11}
 //           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
 //         >
-//           Hello!,👋<br></br>I'm<br></br>
+//          👾 Hello! 👾<br></br>
 //         </h1>
-//         <h1
+//         <h2
 //           ref={h12}
 //           className="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold"
 //         >
-//           {name}
-//         </h1>
+//           I'm {name}
+//         </h2>
+//         <div className="mt-4"></div> {/* Added blank line */}
+//         <div className="mt-4"></div> {/* Added blank line */}
 //         <h5
 //           ref={h13}
-//           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+//           className="text-lg text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-medium"
 //         >
 //           {tagline}
 //         </h5>
@@ -86,7 +90,6 @@
 // }
 
 // export default Home;
-
 
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
@@ -147,13 +150,16 @@ function Home() {
   }, []);
 
   return (
-    <main className="container mx-auto max-width section md:flex justify-between items-center">
+    <main
+      className="container mx-auto max-width section md:flex justify-between items-center"
+      style={{ marginTop: "0px", paddingTop: "1rem" }} // Adjust top space
+    >
       <div>
         <h1
           ref={h11}
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
-         👾 Hello! 👾<br></br>
+          👾 Hello! 👾<br></br>
         </h1>
         <h2
           ref={h12}
@@ -161,16 +167,15 @@ function Home() {
         >
           I'm {name}
         </h2>
-        <div className="mt-4"></div> {/* Added blank line */}
-        <div className="mt-4"></div> {/* Added blank line */}
+        <div className="mt-2"></div> {/* Reduced blank line */}
         <h5
           ref={h13}
-          className="text-lg text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-medium"
+          className="text-lg text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-medium mt-2"
         >
           {tagline}
         </h5>
       </div>
-      <div className="mt-5 md:mt-0">
+      <div className="mt-2 md:mt-0"> {/* Reduced margin here */}
         <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Vidisha Chandra" />
       </div>
     </main>
