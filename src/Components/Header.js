@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <header className="container mx-auto md:flex justify-between py-2 max-width">
-      <div className="flex justify-between items-center py-2 md:py-10">
+      {/* <div className="flex justify-between items-center py-2 md:py-10">
         <NavLink to="/">
           <img className="w-14" src={logos.logogradient} alt="logo" />
         </NavLink>
@@ -32,7 +32,7 @@ function Header() {
             />
           </svg>
         </div>
-      </div>
+      </div> */}
       <nav className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between`}>
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0">
