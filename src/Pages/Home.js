@@ -159,7 +159,7 @@ function Home() {
           ref={h11}
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
-          👾 Hello! 👾<br></br>
+          👾 Hello!! 👾<br></br>
         </h1>
         <h2
           ref={h12}
@@ -175,7 +175,7 @@ function Home() {
           {tagline}
         </h5>
       </div>
-      <div className="mt-3 md:mt-0"> {/* Reduced margin here */}
+      <div className="mt-4 md:mt-0"> {/* Reduced margin here */}
         <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Vidisha Chandra" />
       </div>
     </main>
