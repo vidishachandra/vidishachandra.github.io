@@ -153,14 +153,15 @@ function Home() {
           ref={h11}
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
-          Hello!,👋<br></br>I'm<br></br>
+         👾 Hello! 👾<br></br>
         </h1>
-        <h1
+        <h2
           ref={h12}
           className="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
-          {name}
-        </h1>
+          I'm {name}
+        </h2>
+        <div className="mt-4"></div> {/* Added blank line */}
         <div className="mt-4"></div> {/* Added blank line */}
         <h5
           ref={h13}
