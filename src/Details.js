@@ -176,17 +176,19 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Vidisha Chandra",
-  tagline: "Data Engineer | Bridging Data and Insight",
+  tagline: "Data Engineer | Software Developer; Transforming data into innovation, one code at a time",
   img: profile,
   about: `I am a Master's student in Information Technology & Management at The University of Texas at Austin, with a strong foundation in computer science and a passion for building data-driven solutions. My experience spans developing scalable pipelines, optimizing systems, and creating innovative tools for unstructured and structured data analysis.`,
 };
 
-// Enter your Social Media URLs here
-export const socialMediaUrl = {
-  linkedin: "https://linkedin.com/in/vidishachandra",
-  github: "https://github.com/vidishachandra",
 
+export const socialMediaUrl = {
+  linkedin: "https://www.linkedin.com/in/vidisha-chandra", // Correct spelling
+  github: "https://github.com/vidishachandra",
+  twitter: "https://twitter.com/",
+  instagram: "https://www.instagram.com/",
 };
+
 
 // Enter your Work Experience here
 export const workDetails = [
