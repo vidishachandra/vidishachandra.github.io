@@ -152,7 +152,7 @@ function Home() {
   return (
     <main
       className="container mx-auto max-width section md:flex justify-between items-center"
-      style={{ marginTop: "0px", paddingTop: "1rem" }} // Adjust top space
+      style={{ marginTop: "0px", paddingTop: "2rem" }} // Adjust top space
     >
       <div>
         <h1
@@ -167,7 +167,7 @@ function Home() {
         >
           I'm {name}
         </h2>
-        <div className="mt-2"></div> {/* Reduced blank line */}
+        <div className="mt-4"></div> {/* Reduced blank line */}
         <h5
           ref={h13}
           className="text-lg text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-medium mt-2"
@@ -175,7 +175,7 @@ function Home() {
           {tagline}
         </h5>
       </div>
-      <div className="mt-2 md:mt-0"> {/* Reduced margin here */}
+      <div className="mt-3 md:mt-0"> {/* Reduced margin here */}
         <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Vidisha Chandra" />
       </div>
     </main>
